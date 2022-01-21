@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+/* common */
+.head{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+/*Login page*/
+.header{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.login-form{
+    margin-top: 100px;
+    background: linear-gradient(50deg, lightblue, rgb(238, 133, 133));
+    color: white;
+}
+.back{
+    background-image: url(/img/back1.jpg);
+    background-size: cover;
+}
+
+#out{
+  height: 10px;
+  color: red;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+/*Form CSS*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.pass {
+  float: right;
+  padding-top: 16px;
+}
+.color{
+  color: white;
+  text-decoration: none;
+}
+.color:hover{
+  color: white;
+}
+
+/*Password*/
+#warn1{
+  height: 10px;
+  color: white;
+}
+
+
+  /*Search bar code*/
+
+
+.search1{
+  border-radius: 15px;
+  background-image: url(/img/search.gif); 
+  background-size: 40px; 
+  background-repeat: no-repeat; 
+  padding-left: 60px; /*To give the words after the icon*/
+}
+
+
+
+#searchbar{
+	margin-left: 15%;
+	padding:15px;
+	border-radius: 10px;
+}
+
+input[type=text] {
+	width: 30%;
+	-webkit-transition: width 0.15s ease-in-out;
+	transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+		change its width to 100% */
+input[type=text]:focus {
+	width: 70%;
+}
+
+#list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
+#list{
+  list-style-type: none;
+}
+.animals{	
+  list-style-type: none;
+  color: black;
+}
