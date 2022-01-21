@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+#place, #place1{
+    align-items: center;
+}
+
+#err, #err1, #err3{
+    height: 10px;
+    color: red;
+}
+
+.back{
+    background-image: url(/img/back1.jpg);
+    background-size: cover;
+}
+
+.head{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+  }
+.header{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+.login-form{
+    margin-top: 100px;
+    background-color: rgba(73, 73, 104, 0.678);
+    color: white;
+}
